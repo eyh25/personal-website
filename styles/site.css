@@ -1,0 +1,800 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 1;
+  background-color: #f4f4f4;
+}
+
+/*index*/
+.hidden {
+  display: none;
+}
+
+p {
+  color: #272727;
+  font-size: large;
+}
+
+
+div.top {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: black;
+}
+
+nav {
+  color: #272727;
+  font-size: large;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+nav.heading {
+  color: #272727;
+  font-size: 18pt;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: right;
+  gap: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+}
+
+#hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease;
+  background-color: rgb(227, 227, 227);
+}
+
+#navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+a.title {
+  font-size: 18pt;
+  color: rgb(227, 227, 227);
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  align-items: flex-start;
+
+}
+
+a.heading {
+  font-size: 13pt;
+  color: rgb(227, 227, 227);
+  width: 125px;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  transition: 0.3s ease-out;
+  align-items: flex-end;
+}
+
+a.heading:hover {
+  color: pink;
+}
+
+a {
+  color: #272727;
+}
+
+a:link {
+  text-decoration: none;
+  color: rgb(227, 227, 227);
+}
+
+a:visited {
+  text-decoration: none;
+  color: rgb(227, 227, 227);
+}
+
+#intro {
+  color: #272727;
+  font-size: 30pt;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 200px;
+  padding-bottom: 0px;
+}
+
+#intros {
+  color: #272727;
+  font-size: 30pt;
+  text-align: left;
+  padding-left: 50px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+p.subindex {
+  display: flex;
+  justify-content: left;
+  color: #272727;
+  font-size: 15pt;
+  text-align: left;
+  padding-left: 50px;
+  top: 0;
+  padding-bottom: 125px;
+}
+
+div.indexcontent {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+div.flexContainer {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+
+div.flexHeading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 18px;
+  text-align: left;
+  width: 800px;
+  min-width: 400px;
+  /* height: 500px; */
+  flex: 0.3;
+  align-items: flex-start;
+  padding-left: 50px;
+}
+
+a.job {
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+a.pos {
+  display: flex;
+  flex-direction: row;
+  font-size: 10pt;
+  margin: 0;
+  padding-left: 10px;
+
+}
+
+figure.index {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+img {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+div.indeximage {
+  text-align: justify;
+  display: block;
+  margin: 0 auto;
+  font-size: 12pt;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+p.indexcite {
+  font-size: 5pt;
+  margin: 0;
+}
+
+figure.work {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0%;
+  margin-left: 17px;
+  margin-right: 0;
+}
+
+/* --------------------------------------------- */
+/*about me*/
+
+
+div.aboutme {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#message {
+  display: flex;
+  flex-direction: column;
+}
+
+div.topaboutme {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+div.aboutmeParagraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+div.textaboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+div.form {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.bottomaboutme {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.align-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+div.aboutmetitle {
+  display: flex;
+  flex-direction: column;
+}
+
+dt {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+dd {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+
+p.aboutme {
+  color: #000000;
+  font-size: 20pt;
+  display: flex;
+  flex-wrap: nowrap;
+
+  order: 0;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+p.aboutme2 {
+  color: #000000;
+  font-size: large;
+  display: flex;
+  flex-wrap: nowrap;
+  order: 2;
+  margin-left: 1%;
+  margin-right: 1%;
+  max-width: 500px;
+  min-width: 300px;
+}
+
+h1.aboutme {
+  color: #ffffff;
+  background-color: #313131;
+  padding-left: 10px;
+}
+
+a.aboutme {
+  color: pink;
+  font-size: large;
+  display: flex;
+  order: 1;
+}
+
+a.pink:link {
+  text-decoration: none;
+  transition: 0.2s ease-out;
+  color: black;
+}
+
+a.pink:visited {
+  text-decoration: none;
+  color: black;
+}
+
+a.pink:hover {
+  color: pink;
+}
+
+h3.aboutme {
+  color: #000000;
+  font-size: 18pt;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 0;
+}
+
+dl {
+  color: #000000;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+figure {
+  width: fit-content;
+}
+
+figure.aboutme {
+  max-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: auto;
+}
+
+
+
+/*more*/
+p.more {
+  margin-left: 1%;
+  margin-right: 1%;
+  font-size: 20pt;
+  text-align: center;
+}
+
+div.slides-container {
+  display: flex;
+  flex-direction: row;
+  row-gap: 0px;
+  justify-content: center;
+  justify-content: space-evenly;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.test {
+  display: none;
+}
+
+
+#previous-button,
+#next-button,
+#previous-button1,
+#next-button1,
+#previous-button2,
+#next-button2,
+#previous-button3,
+#next-button3 {
+  display: none;
+}
+
+
+
+/*overall work*/
+div.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+div.projectcontent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+p.projectname {
+  color: #272727;
+  font-weight: lighter;
+  font-size: 20pt;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 10px;
+
+}
+
+p.position {
+  color: #272727;
+  font-weight: lighter;
+  padding-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul.bullets {
+  font-size: 16px;
+  line-height: 2;
+  list-style-type: circle;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+/*yale*/
+ul.yale {
+  font-size: 18px;
+  line-height: 2;
+  list-style-type: circle;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+
+div.yaleimages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+figcaption.yale {
+  margin-left: 7px;
+  margin-top: 7px;
+}
+
+/*musicalrelief*/
+figure.music {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+div.music {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+figcaption.music {
+  display: flex;
+}
+
+/* ----------------------VAW---------------------- */
+div.vawimages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+figure.vaw {
+  align-items: center;
+}
+
+
+.active_page {
+  display: None !important;
+
+}
+
+
+/* ------------------- FORM  ------------------- */
+div.aboutmeform {
+  display: flex;
+  justify-content: center;
+}
+
+div.form-label {
+  margin-top: 15px;
+}
+
+div.confirm-top {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+div.confirm-body {
+  display: flex;
+  flex-direction: row;
+}
+
+input.longer {
+  width: 100%;
+}
+
+input.shorter {
+  width: 100%;
+}
+
+input.company {
+  width: 100%;
+}
+
+div.confirm-bottom {
+  display: flex;
+  margin-top: 16px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#request {
+  font-size: 12pt;
+  font-weight: lighter;
+}
+
+#request-title {
+  font-size: 20pt;
+  margin-left: 40px;
+}
+
+#request-label {
+  font-size: 15pt;
+}
+
+/***************** Error page ************************/
+p.error {
+  font-size: 20pt;
+}
+
+a.error {
+  font-size: 13pt;
+  color: #272727;
+  width: 125px;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  transition: 0.3s ease-out;
+  align-items: flex-end;
+  padding: 2px 6px 2px 6px;
+  border-top: 1.5px solid #333333;
+  border-right: 1.5px solid #333333;
+  border-bottom: 1.5px solid #333333;
+  border-left: 1.5px solid #333333;
+}
+
+
+a.error:hover {
+  color: pink;
+
+}
+
+
+/***************************** MEDIA QUERY **************/
+/* index */
+/* @media (max-width: 600px) {
+  a.heading {
+    font-size: 15pt;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  div.top {
+    display: flex;
+    flex-direction: row;
+  }
+
+  div.flexContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.flexHeading {
+    min-width: 0;
+    width: 375px;
+  }
+
+  div.indexfigure {
+    margin-bottom: 50px;
+  }
+
+  p.intro {
+    font-size: 20pt;
+  } */
+
+
+/* about me */
+/*
+  div.indexcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 600px;
+  }
+
+  div.flexContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  div.flexHeading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    text-align: left;
+    align-items: center;
+  }
+
+  div.indexfigure {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+
+  div.contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  div.aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  a.aboutme {
+    display: flex;
+    justify-content: center;
+  }
+
+  p.aboutme {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    justify-items: center;
+  }
+
+  div.aboutmeParagraph {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    width: 350px;
+    margin-left: 12%;
+    margin-right: 12%;
+  }
+
+  figure.aboutme {
+    display: flex;
+
+    justify-content: center;
+  }
+
+  a.aboutme {
+    margin-top: 0px;
+  }
+
+  /***** NAVIGATION BAR ******/
+/* nav.heading {
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  #hamburger {
+    width: 50px;
+    display: block;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+ */
+/*
+  #navlinks {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-size: 12pt;
+    justify-content: right;
+  } */
+
+/**********************************/
+/*
+  div.slides-container {
+    width: 215px;
+    position: relative;
+    margin: auto;
+  }
+
+  .slideshow,
+  .slideshow1,
+  .slideshow2,
+  .slideshow3 {
+    display: block;
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+  }
+
+  figure.more1,
+  figure.more2,
+  figure.more3,
+  figure.more4 {
+    margin: 0px;
+
+  }
+
+  #previous-button,
+  #next-button,
+  #previous-button1,
+  #next-button1,
+  #previous-button2,
+  #next-button2,
+  #previous-button3,
+  #next-button3 {
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(47, 47, 47);
+    border-radius: 10px;
+    border-width: 0;
+    background-color: white;
+  }
+
+  div.pn-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  #next-button,
+  #next-button1,
+  #next-button2,
+  #next-button3 {
+    right: 0;
+  }
+
+  p.more {
+    text-align: center;
+  }
+} */
